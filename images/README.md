@@ -1,7 +1,9 @@
-# Imagens do Projeto
+## Demonstração
 
-Esta pasta contém capturas de tela e imagens utilizadas na documentação do projeto.
+### Tela inicial
 
-## Screenshots
+![Tela inicial](images/tela-login.png)
 
-As imagens abaixo demonstram a execução da simulação educacional.
+### Tela de conscientização
+
+![Tela de conscientização](images/tela-conscientizacao.png)
