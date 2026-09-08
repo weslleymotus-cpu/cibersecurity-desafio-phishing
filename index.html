@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulação de Conscientização</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <div class="shield">🛡️</div>
+
+        <h1>Portal Seguro</h1>
+        <p class="subtitle">Simulação educacional de conscientização</p>
+
+        <form id="loginForm">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" required>
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <p class="warning">
+            Ambiente de treinamento — nenhuma informação é armazenada.
+        </p>
+    </div>
+
+    <div id="education" class="education hidden">
+        <h2>⚠️ Atenção!</h2>
+        <p>
+            Esta foi uma simulação educacional sobre phishing.
+        </p>
+
+        <p>
+            Em uma situação real, uma página falsa poderia tentar capturar suas credenciais.
+        </p>
+
+        <h3>Como se proteger?</h3>
+
+        <ul>
+            <li>Verifique sempre a URL.</li>
+            <li>Não reutilize senhas.</li>
+            <li>Utilize autenticação multifator.</li>
+            <li>Desconfie de mensagens urgentes.</li>
+            <li>Utilize um gerenciador de senhas.</li>
+        </ul>
+
+        <button onclick="location.reload()">Voltar</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
